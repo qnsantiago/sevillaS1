@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="jaraujoS1.MainPage">
+
+    <StackLayout>
+        <Label Text="MI PRIMERA APP MOVIL" TextColor="Red" FontSize="18" HorizontalTextAlignment="Center"></Label>
+        <Label Text="SISTEMAS DE INFORMACION" TextColor="Black" FontSize="14"/>
+        <Entry x:Name="txtDato" Placeholder="Ingrese su nombre"></Entry>
+        <Entry x:Name="txtEdad" Placeholder="Ingrese su edad" Keyboard="Numeric" MaxLength="3"/>
+        <Button x:Name="btnSaludo" Text="SALUDO" Clicked="btnSaludo_Clicked"/>
+        
+        
+    </StackLayout>
+
+</ContentPage>

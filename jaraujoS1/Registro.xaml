@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="jaraujoS1.Registro">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+            <Label Text="Ventana de Registro" FontSize="18"
+                />
+
+                <Image Source="https://www.uisrael.edu.ec/wp-content/uploads/2023/01/logo-uisrael@2x-e1674848533171.png" />
+                <Image Source="bandera.PNG" HeightRequest="100" WidthRequest="100"/>
+                <Button x:Name="btnAbrir" Text="ABRIR" Clicked="btnAbrir_Clicked"/>
+                <Entry x:Name="txtCedula" Placeholder="Cedula" MaxLength="10"></Entry>
+                <Entry x:Name="txtNombre" Placeholder="Nombre" IsReadOnly="True"></Entry>
+                <Entry x:Name="txtApellido" Placeholder="Apellido"></Entry>
+                <Entry x:Name="txtEdad" Placeholder="Edad"></Entry>
+                <Label Text="FECHA"/>
+                <DatePicker/>
+                <Entry x:Name="txtdireccion" Placeholder="Direccion"></Entry>
+                <Button x:Name="btnGuardar" Text="Guardar"/>
+                <Button x:Name="btnCancelar" Text="Cancelar"/>
+                <Button x:Name="btnActualizar" Text="Actualizar"/>
+                
+            </StackLayout>
+        </ScrollView>
+        
+        
+    </ContentPage.Content>
+</ContentPage>
